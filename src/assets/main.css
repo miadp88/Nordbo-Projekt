@@ -61,6 +61,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  width: 100vw;
+  padding: 0px;
+}
+body header .navbar {
+  background-color: white !important;
+}
+body header .navbar .container img {
+  width: 40%;
+}
+body .app {
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+body #app {
+  padding: 0px;
+}
 #app {
   max-width: 1280px;
   margin: 0 auto;
