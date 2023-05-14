@@ -8,6 +8,11 @@ defineProps({
 </script>
 
 <template>
+  <div class="container">
+     <button type="button" class="btn btn-success">Bootstraptest</button>
+     <button type="button" class="btn btn-info">Info</button>
+     <button type="button" class="btn btn-warning">Warning</button>
+  </div>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
@@ -16,6 +21,7 @@ defineProps({
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
   </div>
+ 
 </template>
 
 <style scoped>
