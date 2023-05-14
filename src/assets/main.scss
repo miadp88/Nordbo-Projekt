@@ -1,0 +1,60 @@
+@import './base.scss';
+//base style
+@import './Style/Base/global';
+@import './Style/Base/typography';
+
+//Component style
+@import './Style/Components/buttons';
+@import './Style/Components/forms';
+@import './Style/Components/icons';
+
+//Helper style
+@import './Style/Helpers/mixins';
+@import './Style/Helpers/var';
+
+//Layout style
+@import './Style/Layout/footer';
+@import './Style/Layout/grid';
+@import './Style/Layout/header';
+@import './Style/Layout/sidebar';
+
+//Modules style
+@import './Style/Modules/hero';
+@import './Style/Modules/modal';
+
+
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
