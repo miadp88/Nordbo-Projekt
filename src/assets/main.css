@@ -65,11 +65,67 @@ body {
   width: 100vw;
   padding: 0px;
 }
+body header {
+  display: flex;
+}
+body header .navheader {
+  display: flex;
+  background-color: #194FC8;
+  color: white;
+  justify-content: center;
+}
+body header .navheader p {
+  margin: 10px;
+  text-align: center;
+}
+body header .headerbtn {
+  margin-top: 1.4vh;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40%;
+  border: none;
+  position: relative;
+}
 body header .navbar {
+  top: 7vh;
+  position: absolute;
   background-color: white !important;
+  width: 100vw;
+}
+body header .navbar .container {
+  width: 100vw;
+  margin-left: auto !important;
 }
 body header .navbar .container img {
   width: 40%;
+}
+body header .navbar .container .btnfirst {
+  background-color: #F2F2F2;
+  border-color: #F2F2F2;
+  color: black;
+  font-weight: bold;
+}
+body header .navbar .container .btnsecond {
+  background-color: #194FC8;
+  border-color: #194FC8;
+  color: white;
+  font-weight: lighter;
+}
+body header .navbar .container .btnthree {
+  background-color: #F2F2F2;
+  border-color: #F2F2F2;
+  color: black;
+  font-weight: bold;
+}
+body header .navbar .container .nav-link {
+  color: black;
 }
 body .app {
   width: 100vw;
@@ -77,8 +133,12 @@ body .app {
   margin: 0px;
 }
 body #app {
+  margin: 0px;
   padding: 0px;
+  position: absolute;
+  top: 0px;
 }
+
 #app {
   max-width: 1280px;
   margin: 0 auto;

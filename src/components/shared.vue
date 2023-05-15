@@ -9,9 +9,13 @@ defineProps({
 
 
 <template>
-
-
 <div class="app">
+
+  <div class="navWrapper">
+  <div class="navheader">
+    <p>join us for an exciting webinar as we launsh our latest innvation - Mimic Sander</p> 
+    <button type="button" class="headerbtn">see more</button>
+  </div>
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <a class="navbar-brand" href="#" >
@@ -23,30 +27,57 @@ defineProps({
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="">Solutions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Pricing</a>
+                        <a class="nav-link" href="">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Download</a>
                     </li>
+
+                    <button 
+                      class="btn btn-primary btnfirst" 
+                      data-bs-target="#collapseTarget" 
+                      data-bs-toggle="collapse">
+                      Partner portal
+                    </button>
+                    <div class="collapse py-2" id="collapseTarget">
+                      text
+                    </div>
+
+                    <button 
+                      class="btn btn-primary btnsecond" 
+                      data-bs-target="#collapseTarget" 
+                      data-bs-toggle="collapse">
+                      Get in touch
+                    </button>
+                    <div class="collapse py-2" id="collapseTarget">
+                     text
+                    </div>
+                    
+                    <button 
+                      class="btn btn-primary btnfirst" 
+                      data-bs-target="#collapseTarget" 
+                      data-bs-toggle="collapse">
+                      Partner portal
+                    </button>
+                    <div class="collapse py-2" id="collapseTarget">
+                      text
+                    </div>
+
                     <div>
-  <b-nav pills>
-    <b-nav-item active>Active</b-nav-item>
-    <b-nav-item>Link</b-nav-item>
-    <b-nav-item-dropdown
-      id="my-nav-dropdown"
-      text="Dropdown"
-      toggle-class="nav-link-custom"
-      right
-    >
-      <b-dropdown-item>One</b-dropdown-item>
-      <b-dropdown-item>Two</b-dropdown-item>
-      <b-dropdown-divider></b-dropdown-divider>
-      <b-dropdown-item>Three</b-dropdown-item>
-    </b-nav-item-dropdown>
-  </b-nav>
+
+                      
+
+                      
+  
 </div>
                     
                    
@@ -56,6 +87,7 @@ defineProps({
             
         </div>
     </nav>
+  </div>
 </div>
 </template>
 

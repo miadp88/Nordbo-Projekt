@@ -1,3 +1,5 @@
+
+
 @import './base.scss';
 //base style
 @import './Style/Base/global';
@@ -7,6 +9,8 @@
 @import './Style/Components/buttons';
 @import './Style/Components/forms';
 @import './Style/Components/icons';
+
+
 
 //Helper style
 @import './Style/Helpers/mixins';
@@ -21,6 +25,8 @@
 //Modules style
 @import './Style/Modules/hero';
 @import './Style/Modules/modal';
+
+
 
 
 
@@ -58,3 +64,4 @@ a,
     padding: 0 2rem;
   }
 }
+
