@@ -1,15 +1,19 @@
 <template>
       <div class="container my-5">
+       
 
-<footer class="text-white text-center text-lg-start bg-dark">
+<footer class="text-black bg-white text-center text-lg-start bg-light">
+    <a class="navbar-brand-footer" href="#" >
+                <img src="../assets/image/NordboRoboticLogo.png" class="logoFooter">
+            </a>
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
     <div class="row mt-4">
       <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <div class="col-6">
-            <h4 class="row-4">Solutions</h4>
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0 Wrappersolutionh5">
+        <div class="col-6 solutionh5">
+            <h5 class="row-4 solutionh5">Solutions</h5>
             <p class="row-6">Mimic Kit</p>
             <p class="row-6">CraftMate</p>
             <p class="row-6">Al-Powerd QC</p>
@@ -17,13 +21,13 @@
         </div>
       </div>
         
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <div class="col-6">
-            <h4 class="row-6">Solutions</h4>
-            <p class="row-6">Mimic Kit</p>
-            <p class="row-6">CraftMate</p>
-            <p class="row-6">Al-Powerd QC</p>
-            <p class="row-6">Components</p>
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0 Wrappersolutionh5">
+            <h5 class="row-4 solutionh5">Solutions</h5>
+            <div class="col-6 solutionh5">
+            <p class="row-6">About us</p>
+            <p class="row-6">Career</p>
+            <p class="row-6">Meet the Team</p>
+            <p class="row-6">Get in Touch</p>
         </div>
         
         <div>
@@ -60,14 +64,7 @@
         <hr class="hr" />
 
       
-   
-    </div>
-    <!--Grid row-->
-
-
-    <div class="row mt-4">
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
         <div class="col-6">
             <p class="row-4">CVR/VAT:DK<br>34697728</p>
             <p class="row-6">Copyright&copy;2020<br>Norbo Robotic A/S</p>
@@ -77,43 +74,48 @@
         
         <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
             <div class="col-6">
-            <h4 class="row-6">Solutions</h4>
-            <p class="row-6">Mimic Kit</p>
-            <p class="row-6">CraftMate</p>
-            <p class="row-6">Al-Powerd QC</p>
-            <p class="row-6">Components</p>
-        </div>
-        
+            <p class="row-6">Noatunvej 2, 5000 Odense -<br> Denmark</p>
+            <p class="row-6">+45 81 81 98 81</p>
+            <p class="row-6">contact@nordbo-robotics.com</p>
+            </div>
 
-   
-      
-   
-
-
-     
         </div>
 
-      
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+           
    
-    </div>
-    
-    <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>
-              <a class="text-white px-2" href="#!">
-                <i class="fab fa-facebook-square"></i>
+              <a class="text-black px-2" href="#!">
+                <font-awesome-icon :icon="['fab', 'facebook-f']" />
               </a>
             </li>
             <li>
-              <a class="text-white px-2" href="#!">
-                <i class="fab fa-instagram"></i>
+              <a class="text-black px-2" href="#!">
+                <font-awesome-icon icon="fa-brands fa-twitter" />
+                
               </a>
             </li>
             <li>
-              <a class="text-white ps-2" href="#!">
-                <i class="fab fa-youtube"></i>
+              <a class="text-black ps-2" href="#!">
+                <font-awesome-icon :icon="['fab', 'linkedin-in']" />
+              </a>
+            </li>
+
+            <li>
+              <a class="text-black ps-2" href="#!">
+                <font-awesome-icon :icon="['fab', 'square-instagram']" />
               </a>
             </li>
           </ul>
+        </div>
+
+    </div>
+
+      
+   
+
+ 
   </div>
   <!-- Grid container -->
 
