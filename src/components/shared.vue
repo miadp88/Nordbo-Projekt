@@ -38,9 +38,6 @@ defineProps({
                     <li class="nav-item">
                         <a class="nav-link" href="">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Download</a>
-                    </li>
 
                     <button 
                       class="btn btn-primary btnfirst" 
@@ -63,7 +60,7 @@ defineProps({
                     </div>
                     
                     <button 
-                      class="btn btn-primary btnfirst" 
+                      class="btn btn-primary btnthree" 
                       data-bs-target="#collapseTarget" 
                       data-bs-toggle="collapse">
                       Partner portal
