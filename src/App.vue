@@ -2,6 +2,7 @@
 import HelloWorld from './components/HeaderComponent.vue'
 import 'bootstrap/js/dist/dropdown'
 import FooterComponent from './components/FooterCompenent.vue'
+import HeroComponent from './components/HeroComponent.vue'
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import FooterComponent from './components/FooterCompenent.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <HeroComponent />
   </main>
 
   <footer>
@@ -32,11 +33,15 @@ import FooterComponent from './components/FooterCompenent.vue'
 </style>
 
 <script>
-import HeaderComponent from "./components/HeaderComponent.vue"
+import HeaderComponent from './components/HeaderComponent.vue'
+import FooterCompenent from './components/FooterCompenent.vue'
+import HeroComponent from './components/HeroComponent.vue'
+
   export default {
     components: {
       HeaderComponent,
       FooterComponent,
+      HeroComponent,
    
     },
     data() {

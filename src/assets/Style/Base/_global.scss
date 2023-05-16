@@ -1,0 +1,63 @@
+main{
+    position: absolute;
+    left: 0px;
+    top: 20vh;
+}
+
+.hero{
+background-image: linear-gradient(rgba(0, 0, 100, 0.30), rgba(0, 0, 100, 0.30)), url(img/nordbo2.png);
+height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  width: 100vw;
+  
+}
+
+.hero-text{
+    color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  background-color: #032c62;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}.hero{
+    background-image: linear-gradient(rgba(0, 0, 100, 0.30), rgba(0, 0, 100, 0.30)), url(img/nordbo2.png);
+    height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+.hero-text{
+    color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  background-color: #032c62;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  
+} 

@@ -112,6 +112,26 @@ footer .Wrappersolutionh5 .solutionh5 h5 {
   font-size: 1em;
 }
 
+main {
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+}
+main .bg-image, main .p-5 {
+  padding: 0px !important;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .bg-image .mask, main .p-5 .mask {
+  height: 100% !important;
+  width: 100vw;
+}
+main .bg-image .mask .text-white, main .p-5 .mask .text-white {
+  position: absolute;
+  left: 20vw;
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;

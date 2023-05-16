@@ -112,6 +112,26 @@ footer .Wrappersolutionh5 .solutionh5 h5 {
   font-size: 1em;
 }
 
+main {
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+}
+main .bg-image, main .p-5 {
+  padding: 0px !important;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .bg-image .mask, main .p-5 .mask {
+  height: 100% !important;
+  width: 100vw;
+}
+main .bg-image .mask .text-white, main .p-5 .mask .text-white {
+  position: absolute;
+  left: 20vw;
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -173,6 +193,89 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  position: absolute;
+  left: 0px;
+  top: 20vh;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 100, 0.3), rgba(0, 0, 100, 0.3)), url(img/nordbo2.png);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  width: 100vw;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  background-color: #032c62;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 100, 0.3), rgba(0, 0, 100, 0.3)), url(img/nordbo2.png);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  background-color: #032c62;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+main {
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+}
+main .bg-image, main .p-5 {
+  padding: 0px !important;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .bg-image .mask, main .p-5 .mask {
+  height: 100% !important;
+  width: 100vw;
+}
+main .bg-image .mask .text-white, main .p-5 .mask .text-white {
+  position: absolute;
+  left: 20vw;
 }
 
 #app {

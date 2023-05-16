@@ -1,0 +1,24 @@
+main{
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    .bg-image, .p-5{
+        padding: 0px!important;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .mask{
+        height: 100%!important;  
+        width: 100vw;
+        .text-white{
+            position: absolute;
+            left: 20vw;
+        }
+        
+        
+        }
+    }
+}
+
+
+  
