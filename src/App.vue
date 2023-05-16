@@ -1,21 +1,18 @@
 <script setup>
-import HelloWorld from './components/shared.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from './components/HeaderComponent.vue'
 import 'bootstrap/js/dist/dropdown'
-
+import FooterComponent from './components/FooterCompenent.vue'
 </script>
 
 <template>
 <template>
-  <div class="p-4 bg-gray-100">
-    <h1 class="text-2xl font-bold text-gray-800">My Vue app with Tailwind!</h1>
-  </div>
+  
 </template>
 
   
   <header>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+     <HeaderComponent />
     </div>
 
  
@@ -24,6 +21,10 @@ import 'bootstrap/js/dist/dropdown'
   <main>
     <TheWelcome />
   </main>
+
+  <footer>
+    <FooterComponent />
+  </footer>
   
 </template>
 <style>
@@ -31,7 +32,13 @@ import 'bootstrap/js/dist/dropdown'
 </style>
 
 <script>
+import HeaderComponent from "./components/HeaderComponent.vue"
   export default {
+    components: {
+      HeaderComponent,
+      FooterComponent,
+   
+    },
     data() {
       return {
         value

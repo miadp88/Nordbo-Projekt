@@ -1,3 +1,9 @@
+@import './Style/Helpers/var';
+@import './Style/Components/header';
+@import './Style/Components/footer';
+
+
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;

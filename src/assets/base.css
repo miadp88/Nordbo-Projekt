@@ -1,3 +1,108 @@
+body {
+  width: 100vw;
+  padding: 0px;
+}
+body header {
+  display: flex;
+}
+body header .navheader {
+  display: flex;
+  background-color: #194FC8;
+  color: white;
+  justify-content: center;
+  position: relative;
+  height: 7vh;
+}
+body header .navheader p {
+  margin: 10px;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+body header .headerbtn {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  position: absolute;
+  top: 25%;
+  right: 470px;
+}
+body header .navbar {
+  top: 10vh;
+  position: absolute;
+  background-color: white !important;
+  width: 63vw;
+  margin: auto;
+  left: 22%;
+}
+body header .navbar .container {
+  width: 100vw;
+  margin-left: auto !important;
+}
+body header .navbar .container .navbar-brand {
+  width: 10%;
+}
+body header .navbar .container img {
+  width: 100%;
+  position: relative;
+}
+body header .navbar .container button {
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 0.8em;
+}
+body header .navbar .container .btnfirst {
+  background-color: #F2F2F2;
+  border-color: #F2F2F2;
+  color: black;
+  font-weight: bold;
+  margin-left: 25px;
+}
+body header .navbar .container .btnsecond {
+  background-color: #021f5f;
+  border-color: #021f5f;
+  color: white;
+}
+body header .navbar .container .btnthree {
+  background-color: #F2F2F2;
+  border-color: #F2F2F2;
+  color: black;
+}
+body header .navbar .container .nav-link {
+  color: black;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-left: 12px;
+}
+body .app {
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+body #app {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: -100vh;
+  width: 100vw;
+  left: 0px;
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
