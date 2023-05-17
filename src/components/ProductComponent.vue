@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container proCon">
   <div class="row">
     <div class="col-lg-4 col-md-12">
         <img src="../assets/image/Aktiv 1NordboQCLab.png" class="image-responsive">
