@@ -1,13 +1,17 @@
 footer{
-    position: absolute;
-    bottom: -100vh;
-    width: 100vw;
+    width: 100vw!important;
     left: 0px;
+    position: absolute;
+    width: 100%;
+    min-height: 320px;
+    bottom: 40px;
+    left: 0;
+    bottom: -125vh;
 
     .navbar-brand-footer{
         img{
             width: 10%;
-            margin-left: 130px;
+            margin-left: 120px;
         }
 
     }

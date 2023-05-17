@@ -1,3 +1,20 @@
 .proCon{
-    margin-top: 50px;
+    margin-top: 15vh;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    
+    
+    h2{
+        padding-left: 6vw;
+        margin-top: -13vh;
+    }
+    p{
+        padding-left: 6vw;
+    }
+    .row{
+        width: 100vw!important;
+        justify-content: center;
+        margin-top: 10vh;
+    }
 }

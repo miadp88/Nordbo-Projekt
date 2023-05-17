@@ -97,14 +97,18 @@ body #app {
 }
 
 footer {
-  position: absolute;
-  bottom: -100vh;
-  width: 100vw;
+  width: 100vw !important;
   left: 0px;
+  position: absolute;
+  width: 100%;
+  min-height: 320px;
+  bottom: 40px;
+  left: 0;
+  bottom: -125vh;
 }
 footer .navbar-brand-footer img {
   width: 10%;
-  margin-left: 130px;
+  margin-left: 120px;
 }
 footer .Wrappersolutionh5 .solutionh5 h5 {
   margin-bottom: 25px;
@@ -133,7 +137,22 @@ main .bg-image .mask .text-white, main .p-5 .mask .text-white {
 }
 
 .proCon {
-  margin-top: 50px;
+  margin-top: 15vh;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+}
+.proCon h2 {
+  padding-left: 6vw;
+  margin-top: -13vh;
+}
+.proCon p {
+  padding-left: 6vw;
+}
+.proCon .row {
+  width: 100vw !important;
+  justify-content: center;
+  margin-top: 10vh;
 }
 
 /* color palette from <https://github.com/vuejs/theme> */
@@ -199,8 +218,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  position: relative;
+}
+
 main {
-  position: absolute;
   left: 0px;
   top: 20vh;
 }
