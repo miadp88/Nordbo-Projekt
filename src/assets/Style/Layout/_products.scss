@@ -1,16 +1,27 @@
+@use '../Helpers/var';
+
 .proCon{
     margin-top: 15vh;
     height: 100%;
     position: absolute;
     margin: auto;
-    
+    h1{
+        margin-top: 10vh;
+        text-align: center;
+        width: 100vw;
+        font-weight: bold;
+        color: $darkBlue;
+    }
+   
     
     h2{
         padding-left: 6vw;
         margin-top: -13vh;
+        color: $darkBlue;
     }
     p{
         padding-left: 6vw;
+        color: $darkBlue;
     }
     .row{
         width: 100vw!important;

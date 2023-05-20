@@ -9,7 +9,7 @@
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
-    <div class="row mt-4">
+    <div class="row mt-4 justify-content-center">
       <!--Grid column-->
       <div class="col-lg-4 col-md-12 mb-4 mb-md-0 Wrappersolutionh5">
         <div class="col-6 solutionh5">
@@ -22,28 +22,20 @@
       </div>
         
         <div class="col-lg-4 col-md-12 mb-4 mb-md-0 Wrappersolutionh5">
-            <h5 class="row-4 solutionh5">Solutions</h5>
+            <h4 class="row-4 solutionh5">Solutions</h4>
             <div class="col-6 solutionh5">
             <p class="row-6">About us</p>
             <p class="row-6">Career</p>
             <p class="row-6">Meet the Team</p>
             <p class="row-6">Get in Touch</p>
         </div>
-        
-        <div>
-            
-        </div>
-   
-      
-   
-
       </div>
 
-      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0 Wrappersolutionh5">
         <form>
   <fieldset>
-    <legend>Join our newaletter</legend>
-    <div class="mb-3">
+    <legend><font-awesome-icon :icon="['far', 'envelope']" />&#160;&#160;&#160;Join our newaletter</legend>
+    <div class="mb-">
       <label for="disabledTextInput" class="form-label"></label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="First Name*">
     </div>
@@ -54,14 +46,16 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Subscribe Now</button>
-    <div class="mb-3">
-     <p>* Will send you regularly updates</p>
+    <div class="mb-3"><br>
+     <p class="subtext">* Will send you regularly updates</p>
     </div>
   </fieldset>
+  <br><br>
 </form>
         </div>
+        
 
-        <hr class="hr" />
+        <hr class="hr" /><br><br>
 
       
         <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
@@ -81,36 +75,36 @@
 
         </div>
 
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0 some">
            
    
             <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>
               <a class="text-black px-2" href="#!">
-                <font-awesome-icon :icon="['fab', 'facebook-f']" />
-              </a>
+                <font-awesome-icon :icon="['fab', 'facebook-f']" size="xl"/>
+              </a>&#160;&#160;&#160;
             </li>
             <li>
               <a class="text-black px-2" href="#!">
-                <font-awesome-icon icon="fa-brands fa-twitter" />
+                <font-awesome-icon icon="fa-brands fa-twitter" size="xl"/>
                 
-              </a>
+              </a>&#160;&#160;&#160;
             </li>
             <li>
               <a class="text-black ps-2" href="#!">
-                <font-awesome-icon :icon="['fab', 'linkedin-in']" />
-              </a>
+                <font-awesome-icon :icon="['fab', 'linkedin-in']" size="xl"/>
+              </a>&#160;&#160;&#160;
             </li>
 
             <li>
               <a class="text-black ps-2" href="#!">
-                <font-awesome-icon :icon="['fab', 'square-instagram']" />
+                <font-awesome-icon :icon="['fab', 'square-instagram']" size="xl"/>
               </a>
             </li>
           </ul>
         </div>
 
-    </div>
+   
 
       
    
@@ -120,10 +114,12 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="px-2 mt-3">
+    <a class="text-black" href="#">Cookie Policy |</a>
+    <a class="text-black" href="#">Terms of User |</a>
+    <a class="text-black" href="#">Privacy Policy |</a>
   </div>
+</div>
   <!-- Copyright -->
 </footer>
 

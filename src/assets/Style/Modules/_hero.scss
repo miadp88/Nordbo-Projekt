@@ -1,3 +1,5 @@
+
+
 main{
     position: absolute;
     left: 0px;
@@ -16,6 +18,12 @@ main{
         }
         
         
+        }
+        .btn{
+            margin-top: 40px;
+            background-color: $darkBlue;
+            border-color: $darkBlue;
+            padding: 10px 60px 10px 60px;
         }
     }
 }
