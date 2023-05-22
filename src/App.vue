@@ -1,6 +1,20 @@
-<script setup>
-import { RouterView } from 'vue-router'
+<script>
+import { RouterView } from 'vue-router';
 import HeaderComponent from './components/HeaderComponent.vue';
+
+export default {
+    components: {
+      HeaderComponent,
+
+    },
+    data() {
+      return {
+        value
+      : ''
+      }
+    }
+
+  }
 </script>
 
 <template>
@@ -10,6 +24,3 @@ import HeaderComponent from './components/HeaderComponent.vue';
 
   <RouterView />
 </template>
-
-<style scoped>
-</style>
