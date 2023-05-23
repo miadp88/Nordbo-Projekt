@@ -1,4 +1,9 @@
 <script setup>
+import router from '@/router';
+const goToRoute = (route) => {
+    router.push({ path: route });
+  }
+
 defineProps({
   msg: {
     type: String,
@@ -40,33 +45,19 @@ defineProps({
                     </li>
 
                     <button 
-                      class="btn btn-primary"  
-                      data-bs-toggle="collapse">
+                      class="btn btn-primary"  >
                       Partner portal
                     </button>
-                    <div class="collapse py-2" id="collapseTarget">
-                      text
-                    </div>
 
                     <button 
-                      class="btn btn-primary btnsecond" 
-                      data-bs-target="#collapseTarget" 
-                      data-bs-toggle="collapse">
+                      class="btn btn-primary btnsecond" >
                       Get in touch
                     </button>
-                    <div class="collapse py-2" id="collapseTarget">
-                     text
-                    </div>
                     
-                    <button 
-                      class="btn btn-primary btnthree" 
-                      data-bs-target="#collapseTarget" 
-                      data-bs-toggle="collapse">
-                      Partner portal
+                    <button @click="goToRoute('/questionnaire')"
+                      class="btn btn-primary btnthree" >
+                      Find Product
                     </button>
-                    <div class="collapse py-2" id="collapseTarget">
-                      text
-                    </div>
 
                     <div>
 

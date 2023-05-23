@@ -20,7 +20,8 @@
     "bootstrap-vue": "^2.23.1",
     "postcss": "^8.4.23",
     "vite-svg-loader": "^4.0.0",
-    "vue": "^3.3.2"
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
