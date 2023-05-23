@@ -40,9 +40,7 @@ body header .navbar {
   top: 10vh;
   position: absolute;
   background-color: white !important;
-  width: 63vw;
   margin: auto;
-  left: 22%;
 }
 body header .navbar .container {
   width: 100vw;
@@ -263,7 +261,6 @@ body {
 main {
   left: 0px;
   top: 20vh;
-  font-family: "excon", sans-serif !important;
 }
 
 .hero {
@@ -321,14 +318,6 @@ main {
   text-align: center;
   cursor: pointer;
   border-radius: 8px;
-}
-
-@font-face {
-  font-family: excon;
-  src: url(../../fonts/HFF\ Greek\ ExCon.ttf);
-}
-header {
-  font-family: "excon", sans-serif !important;
 }
 
 main {

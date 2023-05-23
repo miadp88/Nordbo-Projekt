@@ -40,9 +40,7 @@ body header .navbar {
   top: 10vh;
   position: absolute;
   background-color: white !important;
-  width: 63vw;
   margin: auto;
-  left: 22%;
 }
 body header .navbar .container {
   width: 100vw;

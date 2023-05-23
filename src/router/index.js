@@ -1,36 +1,34 @@
 import { createRouter, createWebHashHistory} from 'vue-router'
-import IndexView from '../components/Views/IndexView.vue'
-import ProductsView from '../components/Views/ProductsView.vue'
-import AboutView from '../components/Views/AboutView.vue'
-import QuestionnaireView from '../components/Views/QuestionnaireView.vue'
+
+
 
 
 const router = createRouter({
     history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
     {
-      path: '/',
-      name: 'Home',
-      component:IndexView,
+      path: '/IndexView',
+      name: 'indexView',
+      component:() => import('../Views/IndexView.vue'),
   
     },
     {
-      path: '/',
-      name: 'Questionnaire',
-      component: QuestionnaireView,
+      path: '/QuestionnaireView',
+      name: 'questionnaire',
+      component: () => import('../Views/QuestionnaireView.vue'),
   
     },
     {
-      path: '/',
+      path: '/ProductsView',
       name: 'Products',
-      component:ProductsView,
+      component: () => import('../Views/ProductsView.vue'),
   
     },
   
     {
-      path: '/',
+      path: '/AboutView',
       name: 'About',
-      component:AboutView,
+      component: () => import('../Views/AboutView.vue'),
   
     },
   

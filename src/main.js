@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
 import './assets/main.scss'
 
@@ -21,9 +22,10 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 
+
 /* add icons to the library */
 library.add(faUserSecret, faTwitter, faFacebook, fas, fab, far)
 
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')
 
