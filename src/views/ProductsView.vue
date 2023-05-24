@@ -1,8 +1,14 @@
+<scriptt setup(props) {
+  import 
 
-    <template>
-<header>
-  <div class="wrapper">
-   <HeaderComponent />
+}>
+
+</scriptt>
+
+<template>
+  <header>
+    <div class="wrapper">
+    <HeaderComponent />
   </div>
 
 

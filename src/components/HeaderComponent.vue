@@ -1,27 +1,15 @@
-<script setup>
-import router from '@/router';
-const goToRoute = (route) => {
-    router.push({ path: route });
-  }
 
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
 
 
 <template>
-<div class="app">
+<div>
 
   <div class="navWrapper">
   <div class="navheader">
-    <p class="text-white">join us for an exciting webinar as we launsh our latest innvation - Mimic Sander</p> 
+    <p class="text-white TopContainer">join us for an exciting webinar as we launsh our latest innvation - Mimic Sander</p> 
     <button type="button" class="headerbtn">see more</button>
   </div>
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#" >
                 <img src="../assets/image/NordboRoboticLogo.png" class="image-responsive">
@@ -40,27 +28,22 @@ defineProps({
                     <li class="nav-item">
                         <a class="nav-link" href="">Resources&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" /></a>
                     </li>
+                  
                     <li class="nav-item">
-                        <a class="nav-link" href="">About Us&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" /></a>
-                    </li>
+                        <router-link to="/partner" class="btn btn-primary btnfirst">Partner Portal</router-link>
+                      </li>  
 
-                    <button 
-                      class="btn btn-primary"  >
-                      Partner portal
-                    </button>
-
-                    <button 
-                      class="btn btn-primary btnsecond" >
-                      Get in touch
-                    </button>
+                      <li class="nav-item">
+                        <router-link to="/about" class="btn btn-primary btnsecond">Get in Touch</router-link>  
+                      </li>
+                      
+                      <li class="nav-item">
+                        <router-link to="/test" class="btn btn-primary btnthree ">Find product</router-link>
+                      </li>
                     
-                    <button @click="goToRoute('/questionnaire')"
-                      class="btn btn-primary btnthree" >
-                      Find Product
-                    </button>
-
+                     
                     <div>
-
+                        
                       
 
                       

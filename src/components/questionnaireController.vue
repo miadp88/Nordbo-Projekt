@@ -1,4 +1,5 @@
 <template>
+  <component :is="currentComponent"></component>
     <div>
       <div v-if="currentQuestionIndex === 0">
         <h2>Which feature do you need?</h2>
@@ -47,11 +48,13 @@
         <p>You chose: {{ results }}</p>
       </div>
     </div>
+
+    
   </template>
   
 <script>
 export default {
-    data() {
+  data() {
         return {
         currentQuestionIndex: 0,
         question1Answers: ['Sanding', 'Grinding', 'Spray painting', 'Deburring', 'Polishing'],
@@ -60,10 +63,21 @@ export default {
         question4Answers: ['Yes', 'No'],
         question5Answers: ['Yes', 'No'],
         question6Answers: ['Yes', 'No'],
-        results: ''
+        results: '',
+        component: "step1"
         }
     },
-    methods: {
+  computed: {
+    currentComponent() {
+      return this.component;
+    },
+  },
+
+  methods: {
+    setComponent(name) {
+    this.component = name;
+  },
+
         nextQuestion() {
             let selectedAnswer
             switch (this.currentQuestionIndex) {
@@ -112,4 +126,6 @@ export default {
         }
     }
 }
+
+
 </script>

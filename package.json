@@ -21,7 +21,8 @@
     "postcss": "^8.4.23",
     "vite-svg-loader": "^4.0.0",
     "vue": "^3.3.2",
-    "vue-router": "^4.2.1"
+    "vue-router": "^4.2.1",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

@@ -1,19 +1,12 @@
+
+
+
 <template>
-
-
-<template>
-<header>
-
-   <HeaderComponent />
-
-</header>
 
 <main>
-  <HeroComponent />
-  <ProductComponent />
+  <heroComponent />
 </main>
 
 
 </template>
 
-</template>

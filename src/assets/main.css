@@ -2,6 +2,9 @@ body {
   width: 100vw;
   padding: 0px;
 }
+body .container {
+  padding: 0px;
+}
 body header {
   display: flex;
   font-family: "excon", sans-serif !important;
@@ -12,7 +15,6 @@ body header .navheader {
   color: white;
   justify-content: center;
   position: relative;
-  height: 7vh;
 }
 body header .navheader p {
   margin: 10px;
@@ -21,26 +23,31 @@ body header .navheader p {
   line-height: 2em;
   color: #021f5f;
 }
+body header .navheader .text-white {
+  width: 100vw;
+}
 body header .headerbtn {
   border-radius: 20px;
   background-color: black;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-weight: bold;
-  padding-top: 1px;
-  padding-bottom: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   border: none;
   position: absolute;
-  top: 25%;
-  right: 470px;
+  top: 28%;
+  right: 350px;
+  line-height: 15px;
 }
 body header .navbar {
   top: 10vh;
   position: absolute;
   background-color: white !important;
   margin: auto;
+  width: 100vw;
 }
 body header .navbar .container {
   width: 100vw;
@@ -53,7 +60,7 @@ body header .navbar .container img {
   width: 100%;
   position: relative;
 }
-body header .navbar .container button {
+body header .navbar .container .btn {
   margin-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -61,7 +68,7 @@ body header .navbar .container button {
   padding-right: 25px;
   font-size: 0.8em;
 }
-body header .navbar .container .btnfirst {
+body header .navbar .container .btnfirst, body header .navbar .container .btnthree {
   background-color: #F2F2F2;
   border-color: #F2F2F2;
   color: black;
@@ -260,7 +267,7 @@ body {
 
 main {
   left: 0px;
-  top: 20vh;
+  top: 11.5vh;
 }
 
 .hero {
@@ -278,18 +285,6 @@ main {
 
 .hero-text {
   color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 15px 25px;
-  color: white;
-  background-color: #032c62;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 8px;
 }
 
 .hero {

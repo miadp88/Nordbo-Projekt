@@ -1,15 +1,30 @@
+
+
 <script setup>
 import { RouterView } from 'vue-router'
-import HeaderComponent from './components/HeaderComponent.vue';
+
+
 </script>
 
 <template>
+  <div class="container">
   <header>
-    <HeaderComponent/>
+    <headerComponent />
   </header>
-
-  <RouterView />
+   
+  <main>
+    <router-view></router-view>
+  </main>
+</div>
 </template>
 
-<style scoped>
-</style>
+
+<script>
+export default {
+  mounted()
+  {
+    this.$router.push('/')
+  }
+}
+
+</script>

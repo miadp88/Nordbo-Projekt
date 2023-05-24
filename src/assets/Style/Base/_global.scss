@@ -8,7 +8,7 @@ body{
 }
 main{
     left: 0px;
-    top: 20vh;
+    top: 11.5vh;
     //font-family: 'excon', sans-serif!important;
     
 }
@@ -31,18 +31,7 @@ height: 50%;
     color: white;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 15px 25px;
-  color: white;
-  background-color: #032c62;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 8px;
-  
-}.hero{
+.hero{
     background-image: linear-gradient(rgba(0, 0, 100, 0.30), rgba(0, 0, 100, 0.30)), url(img/nordbo2.png);
     height: 50%;
   background-position: center;
