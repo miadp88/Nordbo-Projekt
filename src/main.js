@@ -25,6 +25,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 
 import headerComponent from './components/HeaderComponent.vue'
+import sidebar from './components/sidebar.vue'
 import footerComponent from './components/FooterComponent.vue'
 import heroComponent from './components/HeroComponent.vue'
 import productsComponent from './components/ProductComponent.vue'
@@ -38,6 +39,7 @@ const app = createApp(App)
 
 
 /*Sub Komponenter*/
+app.component('sidebar', sidebar)
 app.component('footerComponent', footerComponent)
 app.component('headerComponent', headerComponent)
 app.component('heroComponent', heroComponent)

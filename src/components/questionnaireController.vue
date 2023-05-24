@@ -1,47 +1,47 @@
 <template>
   <component :is="currentComponent"></component>
-    <div>
-      <div v-if="currentQuestionIndex === 0">
+    <div class="quest">
+      <div  class="d-block" v-if="currentQuestionIndex === 0">
         <h2>Which feature do you need?</h2>
         <label v-for="(answer, index) in question1Answers" :key="index">
           <input type="radio" name="question1" :value="answer">{{ answer }}
         </label>
-        <button @click="nextQuestion()">Next</button>
+        <button @click="nextQuestion()" class="btn btn-primary">Next</button>
       </div>
       <div v-else-if="currentQuestionIndex === 1">
         <h2>Which product are you working with?</h2>
         <label v-for="(answer, index) in question2Answers" :key="index">
           <input type="radio" name="question2" :value="answer">{{ answer }}
         </label>
-        <button @click="nextQuestion()">Next</button>
+        <button @click="nextQuestion()" class="btn btn-primary">Next</button>
       </div>
       <div v-else-if="currentQuestionIndex === 2">
         <h2>Do you need GUI and mimic settings preset for sanding?</h2>
         <label v-for="(answer, index) in question3Answers" :key="index">
           <input type="radio" name="question3" :value="answer">{{ answer }}
         </label>
-        <button @click="nextQuestion()">Next</button>
+        <button @click="nextQuestion()" class="btn btn-primary">Next</button>
       </div>
       <div v-else-if="currentQuestionIndex === 3">
         <h2>Is the product you are working with targeted at robot first timers?</h2>
         <label v-for="(answer, index) in question4Answers" :key="index">
           <input type="radio" name="question4" :value="answer">{{ answer }}
         </label>
-        <button @click="nextQuestion()">Next</button>
+        <button @click="nextQuestion()" class="btn btn-primary">Next</button>
       </div>
       <div v-else-if="currentQuestionIndex === 4">
         <h2>Do you need intuitive joystick/system that gives more feed back when processing?</h2>
         <label v-for="(answer, index) in question5Answers" :key="index">
           <input type="radio" name="question5" :value="answer">{{ answer }}
         </label>
-        <button @click="nextQuestion()">Next</button>
+        <button @click="nextQuestion()" class="btn btn-primary">Next</button>
       </div>
       <div v-else-if="currentQuestionIndex === 5">
         <h2>Do you need the possibility to include a industrial touch screen?</h2>
         <label v-for="(answer, index) in question6Answers" :key="index">
           <input type="radio" name="question6" :value="answer">{{ answer }}
         </label>
-        <button @click="nextQuestion()">Next</button>
+        <button @click="nextQuestion()" class="btn btn-primary">Next</button>
       </div>
       <div v-else>
         <h2>Results</h2>
