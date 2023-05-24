@@ -15,12 +15,12 @@
 </header>
 
 <main>
-  <HeroComponent />
-  <ProductComponent />
+  <heroComponent/>
+  <productsCompenent />
 </main>
 
 <footer>
-  <FooterComponent />
+  <footerComponent />
 </footer>
 
 </template>

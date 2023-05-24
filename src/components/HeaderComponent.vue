@@ -38,7 +38,7 @@
                       </li>
                       
                       <li class="nav-item">
-                        <router-link to="/test" class="btn btn-primary btnthree ">Find product</router-link>
+                        <router-link to="/products" class="btn btn-primary btnthree ">Find product</router-link>
                       </li>
                     
                      

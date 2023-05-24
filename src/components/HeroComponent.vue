@@ -10,7 +10,9 @@
         <div class="text-white">
           <h1 class="mb-3">Which product fits</h1>
           <h6 class="mb-3">With this test, you’ll figure out which of our<br> products that is most compatible with the<br> needs you have for your problem.</h6>
-          <a class="btn btn-lg btn-primary" href="#!" role="button">Start test</a>
+
+         
+          <router-link to="/test" class="btn btn-primary">Start Test</router-link>
         </div>
       </div>
     </div>
