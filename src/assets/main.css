@@ -314,6 +314,38 @@ main {
   border-radius: 8px;
 }
 
+.containervideo {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.containervideo .VideoPlayer {
+  justify-content: center;
+  margin: auto !important;
+}
+.containervideo iframe {
+  width: 70vw;
+  border-radius: 20px;
+  height: 100vh;
+}
+
+.hr {
+  border: 1px solid black;
+  margin-top: 40px;
+}
+
+.productInfoWrap .row {
+  height: 60vh;
+  margin-top: 12%;
+}
+.productInfoWrap img {
+  height: 100%;
+}
+
+.InfoFooter {
+  bottom: -525vh;
+}
+
 main {
   position: absolute;
   left: 0px;

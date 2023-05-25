@@ -30,6 +30,8 @@ import footerComponent from './components/FooterComponent.vue'
 import heroComponent from './components/HeroComponent.vue'
 import productsComponent from './components/ProductComponent.vue'
 import questionnaireControllerComponent from './components/questionnaireController.vue'
+import videoComponent from './components/videoComponent.vue'
+import productInfoComponent from './components/productInfoComponent.vue'
 
 //QuestionnaireSteps
 import step1 from './components/questionnaireSteps/step1.vue'
@@ -39,6 +41,8 @@ const app = createApp(App)
 
 
 /*Sub Komponenter*/
+app.component('productInfoComponent', productInfoComponent),
+app.component('videoComponent', videoComponent),
 app.component('sidebar', sidebar)
 app.component('footerComponent', footerComponent)
 app.component('headerComponent', headerComponent)

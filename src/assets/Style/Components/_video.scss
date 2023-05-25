@@ -1,0 +1,20 @@
+.containervideo{
+    width: fit-content;
+    margin: auto;
+    .VideoPlayer{
+        justify-content: center;
+        margin: auto!important;
+    }
+    iframe{
+        width: 70vw;
+        border-radius: 20px;
+        height: 100vh;
+    }
+
+    
+}
+
+.hr{
+    border: 1px solid black;
+    margin-top: 40px;
+}
