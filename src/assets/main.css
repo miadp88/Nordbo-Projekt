@@ -59,6 +59,8 @@ body header .navbar .container .navbar-brand {
 body header .navbar .container img {
   width: 100%;
   position: relative;
+  padding-left: 10px;
+  margin-left: 100px;
 }
 body header .navbar .container .btn {
   margin-left: 10px;
