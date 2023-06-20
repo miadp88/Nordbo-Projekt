@@ -1,7 +1,7 @@
 
     <template>
   <div class="sidebar " role="cdb-sidebar">
-    <h5>Find out which product that fits your need</h5>
+    <h6>Find out which product that fits your needs</h6>
   <div class="sidebar-container">
     
     <div class="sidebar-nav">

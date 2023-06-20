@@ -3,13 +3,16 @@
 .sidebar{
     background: rgb(11,45,115);
    left: 0px;
-   padding: 2vw;
+   padding: 1vw;
+   padding-top: 5vh;
 background: linear-gradient(0deg, rgba(11,45,115,1) 0%, rgba(25,79,200,1) 100%);
     height: 100vh;
     margin: 0px;
     color: white;
-    h5{
+    h6{
         margin-bottom: 30px;
+        font-weight:200;
+        font-size: 1em;
     }
     span{
         color: rgba(255, 255, 255, 0.294);
