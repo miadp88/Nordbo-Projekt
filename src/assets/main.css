@@ -419,16 +419,17 @@ img {
      -moz-appearance: none;
           appearance: none;
   background: white;
-  outline: 1px solid #333;
+  outline: 1px solid #194FC8;
   border: 3px solid white;
   width: 16px;
   height: 16px;
   border-radius: 3px;
   margin-right: 10px;
   margin-top: 12px;
+  border-color: white;
 }
 .containerbn input[type=radio]:checked {
-  background: #333;
+  background: #194FC8;
   margin-right: 10px;
   margin-top: 12px;
 }
@@ -436,8 +437,10 @@ img {
   margin-top: 40px;
   background-color: #021f5f;
   border-color: #021f5f;
-  padding: 10px 60px 10px 60px;
+  padding: 5px 60px 5px 60px;
   color: white;
+  border-radius: 10px;
+  font-weight: 200;
 }
 .containerbn img {
   margin-top: 8%;
