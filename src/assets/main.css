@@ -419,7 +419,7 @@ img {
      -moz-appearance: none;
           appearance: none;
   background: white;
-  outline: 1px solid #194FC8;
+  outline: 1.5px solid #194FC8;
   border: 3px solid white;
   width: 16px;
   height: 16px;
