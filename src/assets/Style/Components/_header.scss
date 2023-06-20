@@ -58,6 +58,7 @@ body{
             .container{
                 width: 100vw;
                 margin-left: auto!important;
+                margin-top: -4px;
                 .navbar-brand{
                     width: 10%;
                     
@@ -67,6 +68,8 @@ body{
                     position: relative;
                     padding-left: 10px;
                     margin-left: 100px;
+                    margin-top: 0;
+                   
                 }
                 .btn{
                     margin-left: 10px;
