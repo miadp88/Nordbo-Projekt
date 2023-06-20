@@ -400,13 +400,13 @@ img {
   margin-left: 6vw;
 }
 
-.quest {
-  margin-top: 20%;
+.containerbn {
+  margin-top: 2%;
 }
-.quest label {
+.containerbn label {
   display: block;
 }
-.quest input[type=radio] {
+.containerbn input[type=radio] {
   box-sizing: border-box;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -420,17 +420,23 @@ img {
   margin-right: 10px;
   margin-top: 12px;
 }
-.quest input[type=radio]:checked {
+.containerbn input[type=radio]:checked {
   background: #333;
   margin-right: 10px;
   margin-top: 12px;
 }
-.quest button {
+.containerbn button {
   margin-top: 40px;
   background-color: #021f5f;
   border-color: #021f5f;
   padding: 10px 60px 10px 60px;
   color: white;
+}
+.containerbn img {
+  margin-top: 8%;
+}
+.containerbn .questForm {
+  margin-top: 2%;
 }
 
 #app {

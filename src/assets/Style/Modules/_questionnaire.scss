@@ -1,7 +1,7 @@
 @use '../Helpers/var';
 
-.quest{
-    margin-top: 20%;
+.containerbn{
+    margin-top: 2%;
     label{
         display: block;
       
@@ -32,6 +32,14 @@
             padding: 10px 60px 10px 60px;
             color: white;
             
+      }
+
+      img{
+        margin-top: 8%;
+      }
+
+      .questForm{
+        margin-top: 2%;
       }
      
 }
