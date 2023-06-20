@@ -3,7 +3,7 @@
 
 <template>
   
-  <main>
+  <main class="mainQuest">
     <div class="containerbn">
     <div class="row">
       <div class="col-2">
