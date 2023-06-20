@@ -16,6 +16,12 @@ main{
             position: absolute;
             left: 20vw;
         }
+        .text-whiteFrontpage{
+            position: absolute;
+            left: 20vw;
+            color: white;
+            width: 30vw;
+        }
         
         
         }
@@ -23,8 +29,14 @@ main{
             margin-top: 40px;
             background-color: $darkBlue;
             border-color: $darkBlue;
-            padding: 10px 60px 10px 60px;
+            padding: 10px 40px 10px 40px;
         }
+    }
+    .trustedCaption{
+        text-align: center;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+        font-size: 1em;
     }
 }
 

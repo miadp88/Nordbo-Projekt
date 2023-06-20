@@ -162,11 +162,23 @@ main .bg-image .mask .text-white, main .p-5 .mask .text-white {
   position: absolute;
   left: 20vw;
 }
+main .bg-image .mask .text-whiteFrontpage, main .p-5 .mask .text-whiteFrontpage {
+  position: absolute;
+  left: 20vw;
+  color: white;
+  width: 30vw;
+}
 main .bg-image .btn, main .p-5 .btn {
   margin-top: 40px;
   background-color: #021f5f;
   border-color: #021f5f;
-  padding: 10px 60px 10px 60px;
+  padding: 10px 40px 10px 40px;
+}
+main .trustedCaption {
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  font-size: 1em;
 }
 
 .proCon {

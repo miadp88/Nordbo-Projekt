@@ -4,7 +4,7 @@
 <template>
 
 <main>
-  <heroComponent />
+  <heroFrontpageComponent />
 </main>
 
 

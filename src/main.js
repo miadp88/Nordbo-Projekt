@@ -32,6 +32,7 @@ import productsComponent from './components/ProductComponent.vue'
 import questionnaireControllerComponent from './components/questionnaireController.vue'
 import videoComponent from './components/videoComponent.vue'
 import productInfoComponent from './components/productInfoComponent.vue'
+import heroFrontpageComponent from './components/HeroFrontpageComponent.vue'
 
 //QuestionnaireSteps
 import step1 from './components/questionnaireSteps/step1.vue'
@@ -49,6 +50,7 @@ app.component('headerComponent', headerComponent)
 app.component('heroComponent', heroComponent)
 app.component('productsCompenent', productsComponent)
 app.component('questionnaireControllerComponent',questionnaireControllerComponent)
+app.component('heroFrontpageComponent', heroFrontpageComponent)
 app.component('step1', step1)
 //app.component('step2', step2)
 //app.component('step3', step3)
