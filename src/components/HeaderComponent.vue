@@ -18,15 +18,20 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto"> 
+                  <li class="nav-item">
+                        <a class="nav-link" href="">Home&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" /></a>
+                    </li>
+
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="">Solutions&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" /></a>
+                        <a class="nav-link" href="">Solutions&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" />&#9662</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Partners&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" /></a>
+                        <a class="nav-link" href="">Partners&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" />&#9662</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Resources&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" /></a>
+                        <a class="nav-link" href="">Resources&#160;&#160;<font-awesome-icon :icon="['fas', 'angle-down']" />&#9662</a>
                     </li>
                   
                     <li class="nav-item">
