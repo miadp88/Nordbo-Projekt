@@ -9,7 +9,7 @@
       <div class="d-flex justify-content-center align-items-center h-100">
         <div class="text-whiteFrontpage">
           <h1 class="mb-3">Everyone can program a robot</h1>
-          <h6 class="mb-3">and enable safe, efficient, and better jobs</h6>
+          <h6 class="mb-3"><i>and enable safe, efficient, and better jobs</i></h6>
 
          
           <router-link to="/test" class="btn btn-primary">Meet Mimic</router-link>
