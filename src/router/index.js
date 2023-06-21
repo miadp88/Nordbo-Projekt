@@ -33,6 +33,13 @@ const router = createRouter({
         component: About,
     
       },
+      {
+        path: '/index',
+        name: 'index',
+        component: Index,
+    
+      },
+     
     
       ]
     });
