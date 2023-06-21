@@ -1,6 +1,6 @@
 <template>
        <main>
-        <heroComponent/>
+        <heroLearnMoreComponent/>
         <videoComponent />
         <productInfoComponent />
         <videoComponent />
