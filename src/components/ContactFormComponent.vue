@@ -1,5 +1,6 @@
 <template>
-    <section class="contactForm d-flex justify-content-center">
+    <v-content>
+    <section class="contactForm d-flex justify-content-center" id="contactSection">
         <div class="contactWrapper d-flex justify-content-center">
             <form action="/action_page.php">
                 <h2>Contact us</h2>
@@ -13,5 +14,7 @@
                     <input class="submitbtn" type="submit" value="Send">
     </form>
 </div>
+
     </section>
+</v-content>
 </template>

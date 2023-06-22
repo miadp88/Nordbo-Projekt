@@ -40,11 +40,11 @@
                       </li>  
 
                       <li class="nav-item">
-                        <router-link to="/about" class="btn btn-primary btnsecond">Get in Touch</router-link>  
+                        <router-link to="/contact" class="btn btn-primary btnsecond">Get in Touch</router-link>  
                       </li>
                       
                       <li class="nav-item">
-                        <router-link to="/products" class="btn btn-primary btnthree ">Find product</router-link>
+                        <router-link to="#" v-scroll-to="'#contactSection'" class="btn btn-primary btnthree ">Find product</router-link>
                       </li>
                     
                      
@@ -65,5 +65,7 @@
     </nav>
   </div>
 </div>
+
+
 </template>
 
