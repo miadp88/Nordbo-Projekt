@@ -5,6 +5,7 @@
         <productInfoComponent />
         <videoComponent />
         <productInfoComponent />
+        <contactFormComponent />
        </main>
 
        <footer class="InfoFooter">

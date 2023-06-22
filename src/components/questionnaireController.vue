@@ -9,9 +9,11 @@
     <input type="radio" name="answer" v-on:change="setSelectedAnswer(answer)" :value="answer.value" :checked="answer.selected" /> {{ answer.answer}}
   </div>
   <div>
-    <button v-on:click="prev()">Prev</button>
-    <button v-on:click="next()">Next</button>
+    <button class="m-2" v-on:click="prev()">Tilbage</button>
+    <button class="m-2" v-on:click="next()">Næste</button>
+    <router-link to="/about" class="btn btn-primary">Resultat</router-link>
   </div>
+  
    
    <div v-for="step in steps" :key="step.index">
       <div>{{step.index}}. {{ step.name }}</div>

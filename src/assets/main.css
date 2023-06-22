@@ -117,7 +117,7 @@ footer {
   min-height: 320px;
   bottom: 40px;
   left: 0;
-  bottom: -180vh;
+  bottom: -290vh;
   justify-content: center;
   font-family: "excon", sans-serif !important;
 }
@@ -481,6 +481,65 @@ img {
   font-weight: bolder;
   width: 22vw;
   line-height: 1.5;
+}
+
+.contactForm {
+  background-color: #021f5f;
+}
+.contactForm .contactWrapper {
+  width: 33%;
+  text-align: center;
+  padding-bottom: 10vh;
+  margin: 6vh;
+}
+.contactForm .contactWrapper .submitbtn {
+  text-align: center;
+  width: 100%;
+  background-color: #92B9CD !important;
+  font-weight: bold;
+}
+.contactForm .contactWrapper input[type=text], .contactForm .contactWrapper select, .contactForm .contactWrapper textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contactForm .contactWrapper input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.contactForm .contactWrapper input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contactForm .contactWrapper .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.contactForm .contactWrapper label {
+  color: white;
+  font-size: 1.5em;
+  font-weight: light;
+}
+.contactForm .contactWrapper h2 {
+  color: white;
+  font-weight: bold;
+}
+.contactForm .contactWrapper ::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(195, 193, 193);
+  opacity: 1; /* Firefox */
+}
+.contactForm .contactWrapper ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(195, 193, 193);
+  opacity: 1; /* Firefox */
 }
 
 #app {
