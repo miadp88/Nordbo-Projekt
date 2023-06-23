@@ -35,6 +35,7 @@ import productInfoComponent from './components/productInfoComponent.vue'
 import heroFrontpageComponent from './components/HeroFrontpageComponent.vue'
 import heroLearnMoreComponent from './components/HeroLearnMoreComponent.vue'
 import contactFormComponent from './components/ContactFormComponent.vue'
+import footerProductComponent from './components/FooterProductComponent.vue'
 
 
 //QuestionnaireSteps
@@ -56,6 +57,7 @@ app.component('questionnaireControllerComponent',questionnaireControllerComponen
 app.component('heroFrontpageComponent', heroFrontpageComponent)
 app.component('heroLearnMoreComponent', heroLearnMoreComponent)
 app.component('contactFormComponent', contactFormComponent)
+app.component('footerProductComponent', footerProductComponent)
 app.component('step1', step1)
 //app.component('step2', step2)
 //app.component('step3', step3)

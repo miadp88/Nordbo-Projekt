@@ -3,8 +3,7 @@ import Index from '../Views/IndexView.vue'
 import Test from '../Views/TestView.vue'
 import Products from '../Views/ProductsView.vue'
 import About from '../Views/AboutView.vue'
-import VueScrollTo from 'vue-scrollto'
-Vue.use(VueScrollTo)
+
 
 
 const router = createRouter({

@@ -1,5 +1,4 @@
 <template>
-    <v-content>
     <section class="contactForm d-flex justify-content-center" id="contactSection">
         <div class="contactWrapper d-flex justify-content-center">
             <form action="/action_page.php">
@@ -16,5 +15,5 @@
 </div>
 
     </section>
-</v-content>
+
 </template>

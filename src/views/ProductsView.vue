@@ -20,7 +20,7 @@
 </main>
 
 <footer>
-  <footerComponent />
+  <footerProductComponent />
 </footer>
 
 </template>
