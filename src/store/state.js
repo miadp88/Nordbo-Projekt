@@ -5,6 +5,7 @@ export default{
             {
                 index: 1,
                 name: 'feature',
+                imageUrl: '../../src/assets/image/cobot1.png',
                 question: '1. Which feature do you need?',
                 answers: [
                     {

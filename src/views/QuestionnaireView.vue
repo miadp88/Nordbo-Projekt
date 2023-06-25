@@ -11,7 +11,7 @@
       </div>
       <div class="col-10">
         <div class="row">
-            <div class="col-5 testimg"><img src="../assets/image/cobot1.png" alt="NordboRobotik robotarm"></div>
+            <div class="col-5 testimg"><questionnaireImageComponent /></div>
             <div class="col questForm"><questionnaireControllerComponent /></div>
             
         

@@ -13,7 +13,7 @@
           <h6 class="mb-3">We have found out that Mimic Kit is the best match for you. On this page you can learn more</h6>
 
          
-          <router-link to="/test" class="btn btn-primary">Contact salesperson</router-link>
+          <router-link to="/questionnaire" class="btn btn-primary">Contact salesperson</router-link>
         </div>
       </div>
     </div>

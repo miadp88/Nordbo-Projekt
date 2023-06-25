@@ -12,7 +12,7 @@
           <h6 class="mb-3"><i>and enable safe, efficient, and better jobs</i></h6>
 
          
-          <router-link to="/test" class="btn btn-primary">Meet Mimic</router-link>
+          <router-link to="/questionnaire" class="btn btn-primary">Meet Mimic</router-link>
         </div>
       </div>
     </div>
