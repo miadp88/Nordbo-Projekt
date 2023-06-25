@@ -36,7 +36,9 @@ import heroFrontpageComponent from './components/HeroFrontpageComponent.vue'
 import heroLearnMoreComponent from './components/HeroLearnMoreComponent.vue'
 import contactFormComponent from './components/ContactFormComponent.vue'
 import footerProductComponent from './components/FooterProductComponent.vue'
+import questionaireSteps from './components/questionnarieMenu.vue'
 import questionnaireImageComponent from './components/questionnaireImageComponent.vue'
+import recommendedProducts from './components/recommendedProducts.vue'
 
 
 
@@ -45,8 +47,8 @@ const app = createApp(App)
 
 
 /*Sub Komponenter*/
-app.component('productInfoComponent', productInfoComponent),
-app.component('videoComponent', videoComponent),
+app.component('productInfoComponent', productInfoComponent)
+app.component('videoComponent', videoComponent)
 app.component('sidebar', sidebar)
 app.component('footerComponent', footerComponent)
 app.component('headerComponent', headerComponent)
@@ -56,8 +58,10 @@ app.component('questionnaireControllerComponent',questionnaireControllerComponen
 app.component('heroFrontpageComponent', heroFrontpageComponent)
 app.component('heroLearnMoreComponent', heroLearnMoreComponent)
 app.component('contactFormComponent', contactFormComponent)
+app.component('questionaireSteps', questionaireSteps)
 app.component('footerProductComponent', footerProductComponent)
 app.component('questionnaireImageComponent', questionnaireImageComponent)
+app.component('recommendedProducts', recommendedProducts)
 
 app.use(router)
 app.use(store)

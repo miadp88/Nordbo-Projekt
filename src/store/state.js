@@ -3,10 +3,9 @@ export default{
         currentIndex: 0,
         steps: [
             {
-                index: 1,
                 name: 'feature',
                 imageUrl: '../../src/assets/image/cobot1.png',
-                question: '1. Which feature do you need?',
+                question: 'Which feature do you need?',
                 answers: [
                     {
                         answer: 'Sanding', 
@@ -37,10 +36,8 @@ export default{
                 ]
             },
             {
-                index: 2,
                 name: 'Test',
-                question: '2. Which product are you working with',
-
+                question: 'Which product are you working with',
                 answers: [
                     {
                         answer: 'Wood + composite', 
@@ -65,9 +62,8 @@ export default{
                 ]
             },
             {
-                index: 3,
                 name: 'Test 333',
-                question: '3. Do you need GUI and mimic settings preset for',
+                question: 'Do you need GUI and mimic settings preset for',
                 answers: [
                     {
                         answer: 'Yes', 
@@ -82,9 +78,8 @@ export default{
                 ]
             },
             {
-                index: 4,
                 name: 'Test 444',
-                question: '4. Is the product you are working with targeted at',
+                question: 'Is the product you are working with targeted at',
                 answers: [
                     {
                         answer: 'Yes', 
@@ -99,9 +94,8 @@ export default{
                 ]
             },
             {
-                index: 5,
                 name: 'Test 555',
-                question: '5. Do you need joystick/system that gives more',
+                question: 'Do you need joystick/system that gives more',
                 answers: [
                     {
                         answer: 'Yes', 
@@ -116,7 +110,6 @@ export default{
                 ]
             },
             {
-                index: 6,
                 name: 'Test 666',
                 question: '6. Do you need the possiblity to include an',
                 answers: [
@@ -132,8 +125,33 @@ export default{
                     },
                 ]
             },
-
-
+            {
+                name: 'Result',
+                question: '',
+                answers: [
+                    
+                ]
+            },
         ]
-    }
+    },
+    products: [
+        {
+            name: 'Mimic kit',
+            description: 'Mimic kit er super',
+            imageUrl: '#',
+            properties: ['sanding', 'grinding', 'spray painting', 'deburring']
+        },
+        {
+            name: 'CraftMate',
+            description: 'Køb de nu bare',
+            imageUrl: '#',
+            properties: ['sanding', 'spray painting', 'deburring']
+        },
+        {
+            name: 'QCLab',
+            description: 'Det er godt',
+            imageUrl: '#',
+            properties: ['polishing', 'grinding', 'deburring']
+        },
+    ]
 }

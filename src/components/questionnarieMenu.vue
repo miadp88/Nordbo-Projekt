@@ -3,56 +3,16 @@
     <div class="sidebar " role="cdb-sidebar">
       <h6>Find out which product that fits your needs</h6>
     <div class="sidebar-container">
-      
       <div class="sidebar-nav">
-          
-        <div class="sidenav">
+        <div v-for="(step, index) in steps" :key="index" :class="GetMenuClass(index)">
           <a class="sidebar-item">
             <div class="sidebar-item-content">
               <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span class="spanOne">1. Feature</span>
+              <span class="spanOne">{{index+1}}. {{step.name}}</span>
             </div>
           </a>
-          <a class="sidebar-item">
-            <div class="sidebar-item-content">
-              <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span>2. Product</span>
-            </div>
-          </a>
-          <a class="sidebar-item">
-            <div class="sidebar-item-content">
-              <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span>3. Presets</span>
-            </div>
-          </a>
-          <a class="sidebar-item">
-            <div class="sidebar-item-content">
-              <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span>4. Robot first timers</span>
-            </div>
-          </a>
-          <a class="sidebar-item">
-            <div class="sidebar-item-content">
-              <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span>5. Joystick/system</span>
-            </div>
-          </a>
-          <a class="sidebar-item">
-            <div class="sidebar-item-content">
-              <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span>6. Industrial touch screen</span>
-            </div>
-          </a>
-          <a class="sidebar-item">
-            <div class="sidebar-item-content">
-              <i class="fa fa-sticky-note sidebar-icon"></i>
-              <span>7. Resuslts</span>
-            </div>
-          </a>
-  
         </div>
-        
-      </div>
+    </div>
     </div>
   </div>
   </template>
@@ -64,24 +24,25 @@
           
         computed: {
             
-            ...mapGetters({ currentStepIndex:"getCurrentStepIndex", currentQuestionnaireStep: "getCurrentQuestionnaireStep", steps:"getStep", hasValidAnswers:"hasValidAnswers" }),
-  
-            currentStep()
-            {
-                return this.currentQuestionnaireStep;
-            },
-  
-            hasValidAnswer()
-            {
-              return this.hasValidAnswers
-            }
+          ...mapGetters({  steps:"getSteps", currentStepIndex:"getCurrentStepIndex"}),
+
         },
   
         methods:{
-         
+          GetMenuClass(MenuIndex)
+            {
+                return MenuIndex == this.currentStepIndex ? "sidenav menu-item-active" : "sidenav menu-item";
+            },
         }
       }
-  </script>
-  
-  
-  
+  </script>  
+
+<style scoped>
+.menu-item{
+    opacity: 0.5 !important;
+}
+
+.menu-item-active{
+    color: 1.0 !important;
+}
+</style>

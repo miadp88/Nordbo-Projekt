@@ -1,13 +1,11 @@
 
-
-
 <template>
   
   <main class="mainQuest">
     <div class="containerbn">
     <div class="row">
       <div class="col-2">
-        <sidebar />
+        <questionaireSteps />
       </div>
       <div class="col-10">
         <div class="row">

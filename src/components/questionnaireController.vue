@@ -1,23 +1,19 @@
 <template>
-  <div>
-  <!-- til debug-->
-  {{ this.currentStepIndex }}
-  {{ this.hasValidAnswer }}
- </div>
-  <h2>{{currentStep.question}}</h2>
-  <div v-for="answer in currentStep.answers" :key="answer.answer">
-    <input type="radio" name="answer" v-on:change="setSelectedAnswer(answer)" :value="answer.value" :checked="answer.selected" /> {{ answer.answer}}
-  </div>
-  <div>
-    <button class="m-2" v-on:click="prev()">Tilbage</button>
-    <button class="m-2" v-on:click="next()">Næste</button>
-    <router-link to="/about" class="btn btn-primary">Resultat</router-link>
-  </div>
-  
-   
-   <div v-for="step in steps" :key="step.index">
-      <div>{{step.index}}. {{ step.name }}</div>
-   </div>
+ <div v-if="this.currentStepIndex < 6">
+    <h2>{{currentStep.question}}</h2>
+    <div v-for="answer in currentStep.answers" :key="answer.answer">
+      <input type="radio" name="answer" v-on:change="setSelectedAnswer(answer)" :value="answer.value" :checked="answer.selected" /> {{ answer.answer}}
+    </div>
+    <div>
+      <button class="m-2" v-on:click="prev()">Tilbage</button>
+      <button class="m-2" v-on:click="next()">Næste</button>
+      <router-link to="/about" class="btn btn-primary">Resultat</router-link>
+    </div>
+</div>
+<div v-else>
+  <recommendedProducts />
+
+</div>
 </template>
   
 <script>
@@ -27,7 +23,7 @@ export default {
         
       computed: {
           
-          ...mapGetters({ currentStepIndex:"getCurrentStepIndex", currentQuestionnaireStep: "getCurrentQuestionnaireStep", steps:"getStep", hasValidAnswers:"hasValidAnswers" }),
+          ...mapGetters({ currentStepIndex:"getCurrentStepIndex", currentQuestionnaireStep: "getCurrentQuestionnaireStep", steps:"getSteps", hasValidAnswers:"hasValidAnswers" }),
 
           currentStep()
           {
