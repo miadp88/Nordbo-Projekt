@@ -36,10 +36,9 @@ import heroFrontpageComponent from './components/HeroFrontpageComponent.vue'
 import heroLearnMoreComponent from './components/HeroLearnMoreComponent.vue'
 import contactFormComponent from './components/ContactFormComponent.vue'
 import footerProductComponent from './components/FooterProductComponent.vue'
+import questionnaireImageComponent from './components/questionnaireImageComponent.vue'
 
 
-//QuestionnaireSteps
-import step1 from './components/questionnaireSteps/step1.vue'
 
 
 const app = createApp(App)
@@ -58,13 +57,9 @@ app.component('heroFrontpageComponent', heroFrontpageComponent)
 app.component('heroLearnMoreComponent', heroLearnMoreComponent)
 app.component('contactFormComponent', contactFormComponent)
 app.component('footerProductComponent', footerProductComponent)
-app.component('step1', step1)
-//app.component('step2', step2)
-//app.component('step3', step3)
-//app.component('step4', step4)
-//app.component('step5', step5)
-    app.use(router)
+app.component('questionnaireImageComponent', questionnaireImageComponent)
 
+app.use(router)
 app.use(store)
 app.mount('#app')
 
